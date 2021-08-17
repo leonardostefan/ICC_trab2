@@ -1,0 +1,69 @@
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
+CPU type:,Intel Coffeelake processor,
+CPU clock:,3.40798333 GHz,
+TABLE,Region InterpoladorSL,Group 1 Raw,L2CACHE,5
+Region Info,Core 3,
+RDTSC Runtime [s],0.000884,
+call count,3,
+Event,Counter,Core 3
+INSTR_RETIRED_ANY,FIXC0,2246330
+CPU_CLK_UNHALTED_CORE,FIXC1,1243215
+CPU_CLK_UNHALTED_REF,FIXC2,1118392
+L2_TRANS_ALL_REQUESTS,PMC0,122384
+L2_RQSTS_MISS,PMC1,14774
+TABLE,Region InterpoladorSL,Group 1 Metric,L2CACHE,7
+Metric,Core 3,
+Runtime (RDTSC) [s],0.0009,
+Runtime unhalted [s],0.0004,
+Clock [MHz],3788.3461,
+CPI,0.5534,
+L2 request rate,0.0545,
+L2 miss rate,0.0066,
+L2 miss ratio,0.1207,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
+CPU type:,Intel Coffeelake processor,
+CPU clock:,3.40798333 GHz,
+TABLE,Region InterpoladorNewton,Group 1 Raw,L2CACHE,5
+Region Info,Core 3,
+RDTSC Runtime [s],0.000041,
+call count,3,
+Event,Counter,Core 3
+INSTR_RETIRED_ANY,FIXC0,64209
+CPU_CLK_UNHALTED_CORE,FIXC1,99333
+CPU_CLK_UNHALTED_REF,FIXC2,88750
+L2_TRANS_ALL_REQUESTS,PMC0,12731
+L2_RQSTS_MISS,PMC1,3972
+TABLE,Region InterpoladorNewton,Group 1 Metric,L2CACHE,7
+Metric,Core 3,
+Runtime (RDTSC) [s],4.109983e-05,
+Runtime unhalted [s],2.914715e-05,
+Clock [MHz],3814.3685,
+CPI,1.5470,
+L2 request rate,0.1983,
+L2 miss rate,0.0619,
+L2 miss ratio,0.3120,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
+CPU type:,Intel Coffeelake processor,
+CPU clock:,3.40798333 GHz,
+TABLE,Region MinimosQuadrados,Group 1 Raw,L2CACHE,5
+Region Info,Core 3,
+RDTSC Runtime [s],0.001245,
+call count,3,
+Event,Counter,Core 3
+INSTR_RETIRED_ANY,FIXC0,9894357
+CPU_CLK_UNHALTED_CORE,FIXC1,4508845
+CPU_CLK_UNHALTED_REF,FIXC2,4056798
+L2_TRANS_ALL_REQUESTS,PMC0,45863
+L2_RQSTS_MISS,PMC1,13650
+TABLE,Region MinimosQuadrados,Group 1 Metric,L2CACHE,7
+Metric,Core 3,
+Runtime (RDTSC) [s],0.0012,
+Runtime unhalted [s],0.0013,
+Clock [MHz],3787.7332,
+CPI,0.4557,
+L2 request rate,0.0046,
+L2 miss rate,0.0014,
+L2 miss ratio,0.2976,

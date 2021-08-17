@@ -6,7 +6,7 @@ import os
 import seaborn as sns
 expected_sizes = [64, 100, 128, 500, 516,1000, 1024, 2000, 2048, 3000, 4096, 5000]
 # expected_sizes = [64, 100, 128, 500]
-expected_sizes = [5,10,20]
+#expected_sizes = [5,10,20]
 
 
 

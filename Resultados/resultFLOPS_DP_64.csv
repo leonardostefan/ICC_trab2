@@ -1,0 +1,78 @@
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
+CPU type:,Intel Coffeelake processor,
+CPU clock:,3.407992355 GHz,
+TABLE,Region InterpoladorSL,Group 1 Raw,FLOPS_DP,6
+Region Info,Core 3,
+RDTSC Runtime [s],0.000333,
+call count,3,
+Event,Counter,Core 3
+INSTR_RETIRED_ANY,FIXC0,2247067
+CPU_CLK_UNHALTED_CORE,FIXC1,1152253
+CPU_CLK_UNHALTED_REF,FIXC2,1035180
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,73813
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,120314
+TABLE,Region InterpoladorSL,Group 1 Metric,FLOPS_DP,9
+Metric,Core 3,
+Runtime (RDTSC) [s],0.0003,
+Runtime unhalted [s],0.0003,
+Clock [MHz],3793.4170,
+CPI,0.5128,
+DP MFLOP/s,1668.7421,
+AVX DP MFLOP/s,1446.8330,
+Packed MUOPS/s,361.7082,
+Scalar MUOPS/s,221.9091,
+Vectorization ratio,61.9770,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
+CPU type:,Intel Coffeelake processor,
+CPU clock:,3.407992355 GHz,
+TABLE,Region InterpoladorNewton,Group 1 Raw,FLOPS_DP,6
+Region Info,Core 3,
+RDTSC Runtime [s],0.000037,
+call count,3,
+Event,Counter,Core 3
+INSTR_RETIRED_ANY,FIXC0,64281
+CPU_CLK_UNHALTED_CORE,FIXC1,95333
+CPU_CLK_UNHALTED_REF,FIXC2,86336
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,2010
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,4041
+TABLE,Region InterpoladorNewton,Group 1 Metric,FLOPS_DP,9
+Metric,Core 3,
+Runtime (RDTSC) [s],3.730959e-05,
+Runtime unhalted [s],2.797336e-05,
+Clock [MHz],3763.1363,
+CPI,1.4831,
+DP MFLOP/s,487.1134,
+AVX DP MFLOP/s,433.2398,
+Packed MUOPS/s,108.3100,
+Scalar MUOPS/s,53.8735,
+Vectorization ratio,66.7824,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
+CPU type:,Intel Coffeelake processor,
+CPU clock:,3.407992355 GHz,
+TABLE,Region MinimosQuadrados,Group 1 Raw,FLOPS_DP,6
+Region Info,Core 3,
+RDTSC Runtime [s],0.001230,
+call count,3,
+Event,Counter,Core 3
+INSTR_RETIRED_ANY,FIXC0,9893539
+CPU_CLK_UNHALTED_CORE,FIXC1,4458442
+CPU_CLK_UNHALTED_REF,FIXC2,4008802
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,1038207
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+TABLE,Region MinimosQuadrados,Group 1 Metric,FLOPS_DP,9
+Metric,Core 3,
+Runtime (RDTSC) [s],0.0012,
+Runtime unhalted [s],0.0013,
+Clock [MHz],3790.2436,
+CPI,0.4506,
+DP MFLOP/s,844.0495,
+AVX DP MFLOP/s,0,
+Packed MUOPS/s,0,
+Scalar MUOPS/s,844.0495,
+Vectorization ratio,0,
