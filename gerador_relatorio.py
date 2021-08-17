@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 import seaborn as sns
-# expected_sizes = [64, 100, 128, 500, 516,1000, 1024, 2000, 2048, 3000, 4096, 5000]
+expected_sizes = [64, 100, 128, 500, 516,1000, 1024, 2000, 2048, 3000, 4096, 5000]
 # expected_sizes = [64, 100, 128, 500]
 expected_sizes = [5,10,20]
 
@@ -83,7 +83,7 @@ for size in expected_sizes:
     L2CACHE_table = getGroupTable('L2CACHE', size, ['L2 miss ratio', 'Runtime (RDTSC) [s]','call count'])
     L3_table = getGroupTable('L3', size, ['L3 bandwidth [MBytes/s]'])
     FLOPS_DP_table = getGroupTable('FLOPS_DP', size, ['DP MFLOP/s', 'AVX DP MFLOP/s'])
-    dfr = pd.concat([L2CACHE_table], axis=1)
+    dfr = pd.concat([L2CACHE_table,L3_table,FLOPS_DP_table], axis=1)
     dfr["AVG TIME"] = dfr['Runtime (RDTSC) [s]']/dfr['call count']
 
     dfFinal=dfFinal.append(dfr)
