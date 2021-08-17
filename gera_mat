@@ -1,0 +1,21 @@
+#! /usr/bin/env python3
+# coding=latin-1
+
+import sys
+import os
+import numpy as np
+import pandas as pd
+from pandas.io.parquet import FastParquetImpl
+
+N = 20
+
+
+if len(sys.argv) > 1 :
+    N = int(sys.argv[1])
+
+fileName = f"./testes/testeX{N}.data"
+print("Gerando")
+pd.DataFrame(np.random.rand(N,N)).to_csv(fileName, sep= ' ', header = False, index=False)
+print("add N")
+cmd =f"sed -i '1i{N}\\' {fileName}"
+os.system(cmd)
