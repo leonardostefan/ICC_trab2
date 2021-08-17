@@ -1,0 +1,69 @@
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
+CPU type:,Intel Coffeelake processor,
+CPU clock:,3.40799222 GHz,
+TABLE,Region InterpoladorSL,Group 1 Raw,L2CACHE,5
+Region Info,Core 3,
+RDTSC Runtime [s],0.000038,
+call count,3,
+Event,Counter,Core 3
+INSTR_RETIRED_ANY,FIXC0,161978
+CPU_CLK_UNHALTED_CORE,FIXC1,132158
+CPU_CLK_UNHALTED_REF,FIXC2,119990
+L2_TRANS_ALL_REQUESTS,PMC0,11236
+L2_RQSTS_MISS,PMC1,3763
+TABLE,Region InterpoladorSL,Group 1 Metric,L2CACHE,7
+Metric,Core 3,
+Runtime (RDTSC) [s],3.810193e-05,
+Runtime unhalted [s],3.877884e-05,
+Clock [MHz],3753.5914,
+CPI,0.8159,
+L2 request rate,0.0694,
+L2 miss rate,0.0232,
+L2 miss ratio,0.3349,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
+CPU type:,Intel Coffeelake processor,
+CPU clock:,3.40799222 GHz,
+TABLE,Region InterpoladorNewton,Group 1 Raw,L2CACHE,5
+Region Info,Core 3,
+RDTSC Runtime [s],0.000002,
+call count,3,
+Event,Counter,Core 3
+INSTR_RETIRED_ANY,FIXC0,15616
+CPU_CLK_UNHALTED_CORE,FIXC1,32191
+CPU_CLK_UNHALTED_REF,FIXC2,29536
+L2_TRANS_ALL_REQUESTS,PMC0,5122
+L2_RQSTS_MISS,PMC1,1439
+TABLE,Region InterpoladorNewton,Group 1 Metric,L2CACHE,7
+Metric,Core 3,
+Runtime (RDTSC) [s],1.929657e-06,
+Runtime unhalted [s],9.445738e-06,
+Clock [MHz],3714.3377,
+CPI,2.0614,
+L2 request rate,0.3280,
+L2 miss rate,0.0921,
+L2 miss ratio,0.2809,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
+CPU type:,Intel Coffeelake processor,
+CPU clock:,3.40799222 GHz,
+TABLE,Region MinimosQuadrados,Group 1 Raw,L2CACHE,5
+Region Info,Core 3,
+RDTSC Runtime [s],0.000053,
+call count,3,
+Event,Counter,Core 3
+INSTR_RETIRED_ANY,FIXC0,195258
+CPU_CLK_UNHALTED_CORE,FIXC1,159939
+CPU_CLK_UNHALTED_REF,FIXC2,145124
+L2_TRANS_ALL_REQUESTS,PMC0,12059
+L2_RQSTS_MISS,PMC1,3875
+TABLE,Region MinimosQuadrados,Group 1 Metric,L2CACHE,7
+Metric,Core 3,
+Runtime (RDTSC) [s],0.0001,
+Runtime unhalted [s],4.693056e-05,
+Clock [MHz],3755.8975,
+CPI,0.8191,
+L2 request rate,0.0618,
+L2 miss rate,0.0198,
+L2 miss ratio,0.3213,

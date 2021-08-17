@@ -1,0 +1,10 @@
+,L2 miss ratio,Runtime (RDTSC) [s],call count,L3 bandwidth [MBytes/s],DP MFLOP/s,AVX DP MFLOP/s,AVG TIME,region,n_size
+"('InterpoladorSL', 5)",0.3193,2.517368e-05,3.0,,,,8.391226666666668e-06,InterpoladorSL,5
+"('InterpoladorNewton', 5)",0.2411,1.466582e-06,3.0,,,,4.888606666666666e-07,InterpoladorNewton,5
+"('MinimosQuadrados', 5)",0.3233,3.525313e-05,3.0,,,,1.1751043333333332e-05,MinimosQuadrados,5
+"('InterpoladorSL', 10)",0.3349,3.810193e-05,3.0,,,,1.2700643333333332e-05,InterpoladorSL,10
+"('InterpoladorNewton', 10)",0.2809,1.929657e-06,3.0,,,,6.432189999999999e-07,InterpoladorNewton,10
+"('MinimosQuadrados', 10)",0.3213,0.0001,3.0,,,,3.3333333333333335e-05,MinimosQuadrados,10
+"('InterpoladorSL', 20)",0.3206,0.0001,3.0,,,,3.3333333333333335e-05,InterpoladorSL,20
+"('InterpoladorNewton', 20)",0.3083,9.277594e-06,3.0,,,,3.092531333333333e-06,InterpoladorNewton,20
+"('MinimosQuadrados', 20)",0.3182,0.0001,3.0,,,,3.3333333333333335e-05,MinimosQuadrados,20

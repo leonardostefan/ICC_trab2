@@ -1,0 +1,69 @@
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
+CPU type:,Intel Coffeelake processor,
+CPU clock:,3.407988519 GHz,
+TABLE,Region InterpoladorSL,Group 1 Raw,L2CACHE,5
+Region Info,Core 3,
+RDTSC Runtime [s],0.000082,
+call count,3,
+Event,Counter,Core 3
+INSTR_RETIRED_ANY,FIXC0,379804
+CPU_CLK_UNHALTED_CORE,FIXC1,263978
+CPU_CLK_UNHALTED_REF,FIXC2,239980
+L2_TRANS_ALL_REQUESTS,PMC0,12493
+L2_RQSTS_MISS,PMC1,4005
+TABLE,Region InterpoladorSL,Group 1 Metric,L2CACHE,7
+Metric,Core 3,
+Runtime (RDTSC) [s],0.0001,
+Runtime unhalted [s],0.0001,
+Clock [MHz],3748.7874,
+CPI,0.6950,
+L2 request rate,0.0329,
+L2 miss rate,0.0105,
+L2 miss ratio,0.3206,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
+CPU type:,Intel Coffeelake processor,
+CPU clock:,3.407988519 GHz,
+TABLE,Region InterpoladorNewton,Group 1 Raw,L2CACHE,5
+Region Info,Core 3,
+RDTSC Runtime [s],0.000009,
+call count,3,
+Event,Counter,Core 3
+INSTR_RETIRED_ANY,FIXC0,23489
+CPU_CLK_UNHALTED_CORE,FIXC1,44216
+CPU_CLK_UNHALTED_REF,FIXC2,40470
+L2_TRANS_ALL_REQUESTS,PMC0,6328
+L2_RQSTS_MISS,PMC1,1951
+TABLE,Region InterpoladorNewton,Group 1 Metric,L2CACHE,7
+Metric,Core 3,
+Runtime (RDTSC) [s],9.277594e-06,
+Runtime unhalted [s],1.297422e-05,
+Clock [MHz],3723.4401,
+CPI,1.8824,
+L2 request rate,0.2694,
+L2 miss rate,0.0831,
+L2 miss ratio,0.3083,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
+CPU type:,Intel Coffeelake processor,
+CPU clock:,3.407988519 GHz,
+TABLE,Region MinimosQuadrados,Group 1 Raw,L2CACHE,5
+Region Info,Core 3,
+RDTSC Runtime [s],0.000131,
+call count,3,
+Event,Counter,Core 3
+INSTR_RETIRED_ANY,FIXC0,650838
+CPU_CLK_UNHALTED_CORE,FIXC1,446191
+CPU_CLK_UNHALTED_REF,FIXC2,400440
+L2_TRANS_ALL_REQUESTS,PMC0,14633
+L2_RQSTS_MISS,PMC1,4656
+TABLE,Region MinimosQuadrados,Group 1 Metric,L2CACHE,7
+Metric,Core 3,
+Runtime (RDTSC) [s],0.0001,
+Runtime unhalted [s],0.0001,
+Clock [MHz],3797.3574,
+CPI,0.6856,
+L2 request rate,0.0225,
+L2 miss rate,0.0072,
+L2 miss ratio,0.3182,
