@@ -1,78 +1,78 @@
 STRUCT,Info,3
 CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
 CPU type:,Intel Coffeelake processor,
-CPU clock:,3.407985489 GHz,
+CPU clock:,3.407976786 GHz,
 TABLE,Region InterpoladorSL,Group 1 Raw,L3,5
 Region Info,Core 3,
-RDTSC Runtime [s],0.000067,
-call count,3,
+RDTSC Runtime [s],0.000018,
+call count,2,
 Event,Counter,Core 3
-INSTR_RETIRED_ANY,FIXC0,366008
-CPU_CLK_UNHALTED_CORE,FIXC1,248833
-CPU_CLK_UNHALTED_REF,FIXC2,224076
-L2_LINES_IN_ALL,PMC0,3955
-L2_TRANS_L2_WB,PMC1,453
+INSTR_RETIRED_ANY,FIXC0,110640
+CPU_CLK_UNHALTED_CORE,FIXC1,72840
+CPU_CLK_UNHALTED_REF,FIXC2,65320
+L2_LINES_IN_ALL,PMC0,1646
+L2_TRANS_L2_WB,PMC1,210
 TABLE,Region InterpoladorSL,Group 1 Metric,L3,10
 Metric,Core 3,
-Runtime (RDTSC) [s],0.0001,
-Runtime unhalted [s],0.0001,
-Clock [MHz],3784.5162,
-CPI,0.6799,
-L3 load bandwidth [MBytes/s],3777.7379,
-L3 load data volume [GBytes],0.0003,
-L3 evict bandwidth [MBytes/s],432.6967,
-L3 evict data volume [GBytes],2.899200e-05,
-L3 bandwidth [MBytes/s],4210.4346,
-L3 data volume [GBytes],0.0003,
-STRUCT,Info,3
-CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
-CPU type:,Intel Coffeelake processor,
-CPU clock:,3.407985489 GHz,
-TABLE,Region InterpoladorNewton,Group 1 Raw,L3,5
-Region Info,Core 3,
-RDTSC Runtime [s],0.000005,
-call count,3,
-Event,Counter,Core 3
-INSTR_RETIRED_ANY,FIXC0,23115
-CPU_CLK_UNHALTED_CORE,FIXC1,38433
-CPU_CLK_UNHALTED_REF,FIXC2,35074
-L2_LINES_IN_ALL,PMC0,1622
-L2_TRANS_L2_WB,PMC1,129
-TABLE,Region InterpoladorNewton,Group 1 Metric,L3,10
-Metric,Core 3,
-Runtime (RDTSC) [s],5.005878e-06,
-Runtime unhalted [s],1.127734e-05,
-Clock [MHz],3734.3647,
-CPI,1.6627,
-L3 load bandwidth [MBytes/s],20737.2213,
+Runtime (RDTSC) [s],1.849074e-05,
+Runtime unhalted [s],2.137339e-05,
+Clock [MHz],3800.3219,
+CPI,0.6584,
+L3 load bandwidth [MBytes/s],5697.1219,
 L3 load data volume [GBytes],0.0001,
-L3 evict bandwidth [MBytes/s],1649.2611,
-L3 evict data volume [GBytes],8.256000e-06,
-L3 bandwidth [MBytes/s],22386.4825,
+L3 evict bandwidth [MBytes/s],726.8503,
+L3 evict data volume [GBytes],1.344000e-05,
+L3 bandwidth [MBytes/s],6423.9722,
 L3 data volume [GBytes],0.0001,
 STRUCT,Info,3
 CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
 CPU type:,Intel Coffeelake processor,
-CPU clock:,3.407985489 GHz,
+CPU clock:,3.407976786 GHz,
+TABLE,Region InterpoladorNewton,Group 1 Raw,L3,5
+Region Info,Core 3,
+RDTSC Runtime [s],0.000006,
+call count,2,
+Event,Counter,Core 3
+INSTR_RETIRED_ANY,FIXC0,15007
+CPU_CLK_UNHALTED_CORE,FIXC1,27249
+CPU_CLK_UNHALTED_REF,FIXC2,24708
+L2_LINES_IN_ALL,PMC0,1101
+L2_TRANS_L2_WB,PMC1,103
+TABLE,Region InterpoladorNewton,Group 1 Metric,L3,10
+Metric,Core 3,
+Runtime (RDTSC) [s],5.976172e-06,
+Runtime unhalted [s],7.995653e-06,
+Clock [MHz],3758.4572,
+CPI,1.8158,
+L3 load bandwidth [MBytes/s],11790.8253,
+L3 load data volume [GBytes],0.0001,
+L3 evict bandwidth [MBytes/s],1103.0472,
+L3 evict data volume [GBytes],6.592000e-06,
+L3 bandwidth [MBytes/s],12893.8725,
+L3 data volume [GBytes],0.0001,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
+CPU type:,Intel Coffeelake processor,
+CPU clock:,3.407976786 GHz,
 TABLE,Region MinimosQuadrados,Group 1 Raw,L3,5
 Region Info,Core 3,
-RDTSC Runtime [s],0.000113,
-call count,3,
+RDTSC Runtime [s],0.000068,
+call count,2,
 Event,Counter,Core 3
-INSTR_RETIRED_ANY,FIXC0,603846
-CPU_CLK_UNHALTED_CORE,FIXC1,410351
-CPU_CLK_UNHALTED_REF,FIXC2,368490
-L2_LINES_IN_ALL,PMC0,4550
-L2_TRANS_L2_WB,PMC1,516
+INSTR_RETIRED_ANY,FIXC0,269007
+CPU_CLK_UNHALTED_CORE,FIXC1,189464
+CPU_CLK_UNHALTED_REF,FIXC2,171536
+L2_LINES_IN_ALL,PMC0,2484
+L2_TRANS_L2_WB,PMC1,277
 TABLE,Region MinimosQuadrados,Group 1 Metric,L3,10
 Metric,Core 3,
 Runtime (RDTSC) [s],0.0001,
 Runtime unhalted [s],0.0001,
-Clock [MHz],3795.1376,
-CPI,0.6796,
-L3 load bandwidth [MBytes/s],2582.2562,
-L3 load data volume [GBytes],0.0003,
-L3 evict bandwidth [MBytes/s],292.8449,
-L3 evict data volume [GBytes],3.302400e-05,
-L3 bandwidth [MBytes/s],2875.1011,
-L3 data volume [GBytes],0.0003,
+Clock [MHz],3764.1598,
+CPI,0.7043,
+L3 load bandwidth [MBytes/s],2334.8292,
+L3 load data volume [GBytes],0.0002,
+L3 evict bandwidth [MBytes/s],260.3654,
+L3 evict data volume [GBytes],1.772800e-05,
+L3 bandwidth [MBytes/s],2595.1946,
+L3 data volume [GBytes],0.0002,

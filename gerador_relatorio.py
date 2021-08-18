@@ -5,8 +5,8 @@ import pandas as pd
 import os
 import seaborn as sns
 expected_sizes = [64, 100, 128, 500, 516,1000, 1024, 2000, 2048, 3000, 4096, 5000]
-# expected_sizes = [64, 100, 128, 500]
-#expected_sizes = [5,10,20]
+## expected_sizes = [64, 100, 128, 500]
+#expected_sizes = [5,10]
 
 
 
@@ -118,9 +118,10 @@ for item in expected_sizes:
         df['ajuste'] = polynomial_coefficients(xs, ajuste)
         xsG = np.linspace(-5, 5, 10)
         df.plot(style= ['-','-.'])
-        
+	        
         plt.scatter(xTab,yTab, color = 'black',  label='Pontos Tabelados',marker = 'x' )
         plt.legend(loc='best')
+        plt.xscale("log")
         plt.title(f"Valores tabelados = {item}, Funçao Tabelada {iM}")
         path = os.path.join('./Resultados/',f'n{item}f[{iM}].png')
         plt.savefig(path)

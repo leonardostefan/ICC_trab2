@@ -1,78 +1,78 @@
 STRUCT,Info,3
 CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
 CPU type:,Intel Coffeelake processor,
-CPU clock:,3.407974484 GHz,
+CPU clock:,3.40799284 GHz,
 TABLE,Region InterpoladorSL,Group 1 Raw,L3,5
 Region Info,Core 3,
-RDTSC Runtime [s],128.410700,
+RDTSC Runtime [s],127.494000,
 call count,5,
 Event,Counter,Core 3
-INSTR_RETIRED_ANY,FIXC0,290393600000
-CPU_CLK_UNHALTED_CORE,FIXC1,484130800000
-CPU_CLK_UNHALTED_REF,FIXC2,435309800000
-L2_LINES_IN_ALL,PMC0,15316380000
-L2_TRANS_L2_WB,PMC1,15027050000
+INSTR_RETIRED_ANY,FIXC0,290299000000
+CPU_CLK_UNHALTED_CORE,FIXC1,480748800000
+CPU_CLK_UNHALTED_REF,FIXC2,432269500000
+L2_LINES_IN_ALL,PMC0,15297940000
+L2_TRANS_L2_WB,PMC1,15029190000
 TABLE,Region InterpoladorSL,Group 1 Metric,L3,10
 Metric,Core 3,
-Runtime (RDTSC) [s],128.4107,
-Runtime unhalted [s],142.0582,
-Clock [MHz],3790.1867,
-CPI,1.6672,
-L3 load bandwidth [MBytes/s],7633.6966,
-L3 load data volume [GBytes],980.2483,
-L3 evict bandwidth [MBytes/s],7489.4943,
-L3 evict data volume [GBytes],961.7312,
-L3 bandwidth [MBytes/s],15123.1908,
-L3 data volume [GBytes],1941.9795,
+Runtime (RDTSC) [s],127.4940,
+Runtime unhalted [s],141.0651,
+Clock [MHz],3790.2014,
+CPI,1.6560,
+L3 load bandwidth [MBytes/s],7679.3273,
+L3 load data volume [GBytes],979.0682,
+L3 evict bandwidth [MBytes/s],7544.4190,
+L3 evict data volume [GBytes],961.8682,
+L3 bandwidth [MBytes/s],15223.7464,
+L3 data volume [GBytes],1940.9363,
 STRUCT,Info,3
 CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
 CPU type:,Intel Coffeelake processor,
-CPU clock:,3.407974484 GHz,
+CPU clock:,3.40799284 GHz,
 TABLE,Region InterpoladorNewton,Group 1 Raw,L3,5
 Region Info,Core 3,
-RDTSC Runtime [s],0.129166,
+RDTSC Runtime [s],0.129611,
 call count,5,
 Event,Counter,Core 3
-INSTR_RETIRED_ANY,FIXC0,160574200
-CPU_CLK_UNHALTED_CORE,FIXC1,169834600
-CPU_CLK_UNHALTED_REF,FIXC2,152702100
-L2_LINES_IN_ALL,PMC0,5143644
-L2_TRANS_L2_WB,PMC1,650427
+INSTR_RETIRED_ANY,FIXC0,160582300
+CPU_CLK_UNHALTED_CORE,FIXC1,170248700
+CPU_CLK_UNHALTED_REF,FIXC2,153087100
+L2_LINES_IN_ALL,PMC0,5094273
+L2_TRANS_L2_WB,PMC1,657103
 TABLE,Region InterpoladorNewton,Group 1 Metric,L3,10
 Metric,Core 3,
-Runtime (RDTSC) [s],0.1292,
-Runtime unhalted [s],0.0498,
-Clock [MHz],3790.3341,
-CPI,1.0577,
-L3 load bandwidth [MBytes/s],2548.6018,
-L3 load data volume [GBytes],0.3292,
-L3 evict bandwidth [MBytes/s],322.2773,
-L3 evict data volume [GBytes],0.0416,
-L3 bandwidth [MBytes/s],2870.8791,
-L3 data volume [GBytes],0.3708,
+Runtime (RDTSC) [s],0.1296,
+Runtime unhalted [s],0.0500,
+Clock [MHz],3790.0408,
+CPI,1.0602,
+L3 load bandwidth [MBytes/s],2515.4846,
+L3 load data volume [GBytes],0.3260,
+L3 evict bandwidth [MBytes/s],324.4688,
+L3 evict data volume [GBytes],0.0421,
+L3 bandwidth [MBytes/s],2839.9534,
+L3 data volume [GBytes],0.3681,
 STRUCT,Info,3
 CPU name:,Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz,
 CPU type:,Intel Coffeelake processor,
-CPU clock:,3.407974484 GHz,
+CPU clock:,3.40799284 GHz,
 TABLE,Region MinimosQuadrados,Group 1 Raw,L3,5
 Region Info,Core 3,
-RDTSC Runtime [s],5.521265,
+RDTSC Runtime [s],5.527967,
 call count,5,
 Event,Counter,Core 3
-INSTR_RETIRED_ANY,FIXC0,39782280000
-CPU_CLK_UNHALTED_CORE,FIXC1,20867860000
-CPU_CLK_UNHALTED_REF,FIXC2,18761070000
-L2_LINES_IN_ALL,PMC0,12265080
-L2_TRANS_L2_WB,PMC1,11141980
+INSTR_RETIRED_ANY,FIXC0,39934490000
+CPU_CLK_UNHALTED_CORE,FIXC1,20894050000
+CPU_CLK_UNHALTED_REF,FIXC2,18784580000
+L2_LINES_IN_ALL,PMC0,12143270
+L2_TRANS_L2_WB,PMC1,11114400
 TABLE,Region MinimosQuadrados,Group 1 Metric,L3,10
 Metric,Core 3,
-Runtime (RDTSC) [s],5.5213,
-Runtime unhalted [s],6.1232,
-Clock [MHz],3790.6758,
-CPI,0.5246,
-L3 load bandwidth [MBytes/s],142.1712,
-L3 load data volume [GBytes],0.7850,
-L3 evict bandwidth [MBytes/s],129.1528,
-L3 evict data volume [GBytes],0.7131,
-L3 bandwidth [MBytes/s],271.3240,
-L3 data volume [GBytes],1.4981,
+Runtime (RDTSC) [s],5.5280,
+Runtime unhalted [s],6.1309,
+Clock [MHz],3790.7035,
+CPI,0.5232,
+L3 load bandwidth [MBytes/s],140.5886,
+L3 load data volume [GBytes],0.7772,
+L3 evict bandwidth [MBytes/s],128.6769,
+L3 evict data volume [GBytes],0.7113,
+L3 bandwidth [MBytes/s],269.2655,
+L3 data volume [GBytes],1.4885,

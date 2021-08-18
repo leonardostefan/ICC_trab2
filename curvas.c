@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
             coeficientes = calloc(n, sizeof(double));
             LIKWID_MARKER_START("InterpoladorSL");
             calculaInterPolSL(inputs->x, inputs->f[i], n, coeficientes, pivo);
-            printVector(coeficientes, n);
+            if (!run_likwid) printVector(coeficientes, n);
             LIKWID_MARKER_STOP("InterpoladorSL");
 
             if (run_likwid)
@@ -88,7 +88,7 @@ int main(int argc, char *argv[])
 
             LIKWID_MARKER_START("MinimosQuadrados");
             calculaPolinomioMinimosQuadrados(inputs->x, n, luMQ, inputs->f[i], coeficientes, grau, pivo);
-            printVector(coeficientes, n);
+            if (!run_likwid) printVector(coeficientes, n);
             LIKWID_MARKER_STOP("MinimosQuadrados");
         }
         liberaFatoracaoLU(luMQ);
